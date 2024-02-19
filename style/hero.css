@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+}
+.hero-video{
+    z-index: -1;
+    position: fixed;
+    video{
+        position: fixed;
+        min-height: 100%;
+        min-width: 100%;
+    }
+}
+.hero{
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .hero-text{
+        margin-left: 30px;
+        padding: 20px;
+    }
+    h1{
+        text-align: left;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 15vw;
+        color: rgb(255, 255, 255);
+    }
+    p{
+        text-align: left;
+        color:white;
+        margin-top: 50px;
+        font-size: 2vw;
+    }
+}
+.herobtn{
+    margin-right:30px;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    gap:50px;
+    .hero-btn-1{
+        background-color: transparent;
+        outline:none;
+        border:1px solid rgb(158, 158, 255);
+        border-radius: 10px;
+        color:white;
+        padding:15px;
+        width:200px;
+        font-size: 1.5vw;
+    }
+    .hero-btn-2{
+        background-color: rgb(158, 158, 255);
+        outline: none;
+        border:1px solid white;
+        border-radius: 10px;
+        padding:15px;
+        width:200px;
+        font-size: 1.5vw;
+    }
+}

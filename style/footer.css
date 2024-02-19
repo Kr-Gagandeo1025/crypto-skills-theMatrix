@@ -1,0 +1,21 @@
+.main-footer{
+    width: 100%;
+    background-color: rgb(158,158,255);
+    margin-bottom: 0px;
+    .query-input{
+        background-color: transparent;
+        padding:5px;
+        outline:none;
+        border:none;
+        border-bottom: 2px solid black;
+    }
+    .contact-btn{
+        margin-top: 10px;
+        background-color: rgb(158, 158, 255);
+        outline: none;
+        border:1px solid white;
+        border-radius: 10px;
+        padding:10px;
+        font-size: 1vw;
+    }
+}

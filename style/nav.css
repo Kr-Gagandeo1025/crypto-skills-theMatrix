@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'auto';
+}
+header{
+    z-index:99;
+}
+
+.content{
+    display:flex;
+
+}
+
+header{
+    top:0;
+    left:0;
+    width:100%;
+    padding:20px 120px;
+    background: #242c3c;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    z-index:-1;
+}
+.logo{
+    font-size: 25px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+nav a{
+    font-size: 18px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 35px;
+    transform: .3s;
+    cursor:pointer;
+}
+nav a:hover{
+    color:rgb(158,158,225);
+}
+
+
+
+.btn-nav{
+    width:140px;
+    color:#fff;
+    padding:16px 0;
+    text-align: center;
+    margin:2px 1px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid rgb(158,158,225);
+    cursor: pointer;
+    background: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+button div:hover{
+    color:rgb(158,158,225);;
+}
+
+.pr-text{
+    color:white;
+}
+.meta-btn{
+    border: solid 2px #444;
+
+  font-size:20px;
+
+  padding: 20px 40px 20px 70px;
+
+  background: #dd6e2e;
+
+  background-image: url("mm.png");
+
+  background-size: 40px;
+
+  background-repeat: no-repeat;
+
+  background-position: 20px;
+
+  font-weight: bold;
+
+  color: #fff;
+
+  box-shadow: inset 2px 2px 0 #fff, 0 8px 10px -4px rgba(0,0,0,0.4);
+
+  cursor: pointer;
+
+  transition: all 0.4s ease;
+
+}
